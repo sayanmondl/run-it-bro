@@ -1,0 +1,59 @@
+{
+  "name": "run-it-bro",
+  "displayName": "Run it bro!",
+  "description": "",
+  "version": "0.0.1",
+  "publisher": "sayanmondl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sayanmondl/run-it-bro"
+  },
+  "engines": {
+    "vscode": "^1.86.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "run-it-bro.run",
+        "title": "Run Code",
+        "icon": {
+          "dark": "res/runcolor.png",
+          "light": "res/runcolor.png"
+        }
+      }
+    ],
+    "menus": {
+      "editor/title": [
+        {
+          "command": "run-it-bro.run",
+          "group": "navigation",
+          "when": "editorLangId == javascript"
+        }
+      ]
+    },
+    "breakpoints": [
+      {
+        "language": "javascript"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.86.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.3",
+    "@vscode/test-cli": "^0.0.4",
+    "@vscode/test-electron": "^2.3.9"
+  }
+}
