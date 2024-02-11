@@ -1,9 +1,7 @@
-# Change Log
+# 0.0.2
+- <b>[Added]: Added icon for extension
+- <b>[Added]: Better run button for light theme
+- <b>[Changed]: Run button icon
 
-All notable changes to the "run-it-bro" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
+# 0.0.1
 - Initial release
