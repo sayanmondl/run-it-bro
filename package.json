@@ -2,12 +2,13 @@
   "name": "run-it-bro",
   "displayName": "Run it bro!",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "sayanmondl",
   "repository": {
     "type": "git",
     "url": "https://github.com/sayanmondl/run-it-bro"
   },
+  "icon": "res/runner.png",
   "engines": {
     "vscode": "^1.86.0"
   },
@@ -22,8 +23,8 @@
         "command": "run-it-bro.run",
         "title": "Run Code",
         "icon": {
-          "dark": "res/runcolor.png",
-          "light": "res/runcolor.png"
+          "dark": "res/rundark.png",
+          "light": "res/runlight.png"
         }
       }
     ],

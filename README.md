@@ -6,4 +6,4 @@ Run your code snippet and code file with one click.
 * javascript
 
 **Current version**
-* 0.0.1
+* 0.0.2
